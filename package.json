@@ -1,0 +1,26 @@
+{
+  "name": "ocr",
+  "version": "1.0.0",
+  "description": "convert your image text to editable doc",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meghanasarikonda/OCR.git"
+  },
+  "author": "Meghana Sarikonda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meghanasarikonda/OCR/issues"
+  },
+  "homepage": "https://github.com/meghanasarikonda/OCR#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
